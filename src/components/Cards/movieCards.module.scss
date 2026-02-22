@@ -1,0 +1,70 @@
+@use '@/style/variables.scss' as *;
+@use  '@/style/mixins.scss';
+.container{
+  @include mixins.center();
+    margin:$margin-sm;
+    padding:$padding-sm;  
+    &__heading{
+      text-align: left;
+        font-size: $font-md;
+        color:var(--color-dark-violet);
+    }
+}
+.movie-container{
+    display: flex;
+    gap:$gap-sm;
+    overflow:auto;
+   
+}
+.movie{
+   @include mixins.center();
+    border-radius: $border-radius-md;
+    &__images{
+    
+       border-radius:$border-radius-md;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      position: relative;
+  
+    }
+    &__title{
+     
+        font-size:$font-md;
+        color:var(--color-orange);
+    }
+    &__original-title{
+        font-size:$font-sm;
+      
+
+    }
+}
+.container-progress{
+    position:sticky;
+    z-index:$z-index-md;
+    transform: translate(80%,-80%);
+}
+.progress-label{
+    width: 50px;
+  height: 50px;
+  border-radius:$border-radius-xl;
+display: flex;
+@include mixins.center();
+  font-size: 0.8rem;
+  font-weight: bold;    
+  color:var(--color-white);
+   background: 
+
+    radial-gradient(closest-side, #1a1a1a 75%, transparent 76% 100%), 
+    conic-gradient(rgb(3, 190, 96) var(--progress), #4d4d4d 0deg);
+}
+
+.favorite-button{
+  position:absolute;
+  top:0;
+  left:0;
+    transform: translate(20%,-630%);
+    cursor: pointer;
+    
+
+
+}
+

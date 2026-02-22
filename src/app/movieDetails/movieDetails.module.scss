@@ -1,0 +1,44 @@
+@use '@/style/variables.scss' as *;
+@use  '@/style/mixins.scss';
+.container{
+    @include mixins.center();
+    margin:$margin-sm;
+    padding:$padding-sm;
+    border-radius: $border-radius-xl;
+    border:1px solid var(--color-black);
+
+      &__images{
+        border: 1px solid var(--color-black);
+        border-radius:$border-radius-xl;
+      }
+      &__title{
+        color:var(--color-orange);
+      }
+      &__original-title{
+        color:var(--color-black);
+      }
+      &__overview{
+        color:var(--color-pink);
+        font-size: $font-md;
+      }
+      &__count{
+        color:var(--color-violet);
+      }
+      &__popular{
+        color:var(--color-dark-brown);
+      }
+      &__addbtn{
+        margin:$margin-sm;
+        padding: $padding-sm;
+        font-size: $font-md;
+        color:var(--color-white);
+        border-radius: $border-radius-md;
+        background-color: var(--color-violet);
+        cursor: pointer;
+
+        &:hover{
+            background-color: var(--color-green);
+        }
+      }
+
+}

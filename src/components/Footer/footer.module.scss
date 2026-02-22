@@ -1,0 +1,28 @@
+@use '@/style/variables.scss' as *;
+@use  '@/style/mixins.scss';
+.container-footer{
+   display: flex;
+    position:sticky;
+    @include mixins.center();
+    gap:$gap-lg;
+    flex-wrap: wrap;
+    padding: $padding-md;
+    background-color:var(--color-blue);
+    color:var(--color-white);
+    font-size:$font-md; 
+    border-radius: $border-radius-md;
+
+
+    @include mixins.small-screen{
+      font-size:$font-sm;
+        }
+}
+.btn{
+    @include mixins.center();
+    margin:$margin-sm;
+    padding:$padding-sm;
+    font-size: $font-sm;
+    color:var(--color-light-blue);
+  border-radius: $border-radius-md;
+  cursor: pointer;
+}

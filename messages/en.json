@@ -1,0 +1,69 @@
+{
+    "header":{
+        "home":"Home",
+        "upcomingmovie":"UpComing Movies",
+        "topratedmovie":"Top-Rated Movie",
+        "trendingmovie":"Trending Movie",
+    "searchmovie":"Search Movie",
+    "moviedetails":"Movie Details",
+    "favourite":"Favourite Movie"
+    },
+    "pageheading":{
+        "upcomingmovieheading":"The upcoming Movies are ...." ,
+        "topratingmoviesheading": "The world's  top-rated and highly recommended Movies !!",
+        "trendingmovieheading":"The most popular and weekly Trending Movies here ....",
+        "moviedetailsheading":"Know the full details of the selected Movies...",
+        "loading":"Loading Movie Details ....."
+
+    },
+    "searchPage":{
+         "searchmovieheading":"Search here  your  most favourite Movie!!!",
+        "searchmovie":"Searched movie Details ....",
+        "placeholdersearch":"Search Movie Title....",
+        "searchingtext":"Searching for Movies....",
+        "goresults":"Click the search button to go to the results page..",
+         "searchbtn":"Search",
+         "notfoundmovies":"Sorry !! your searched movies is not found..."
+
+    },
+    "inforamtion":{
+        "favouritemovieheading":"Your preferred and most favourite Movies ...",
+        "homepageinform":"Welcome user, Explore a world of Movies !!!",
+        "favoutieemptyinfo":"Your Favourite List is empty !!!",
+        "favouriteaddedinfo":"Your movie is added successfully in the Favourite list",
+        "favouritedeleteinfo":"The movie is removed from the Favourite list !!!",
+        "deletefavouritecards":"Remove",
+        "addedfavouritecards":"Add"
+    },
+    "footertitle":{
+        "basictitle":"THE BASICS",
+        "getinvolvedtitle":"GET INVOLVED",
+        "communitytitle":"COMMUNITY",
+        "legaltitle":"LEGAL"
+    },
+    "footerdata":{
+        "about":"About the Movie App",
+        "contact":"Contact us",
+        "apidocumentation":"Api Documentation",
+        "contribute":"Contribute Chance",
+        "addnewmovie":"Add New Movie",
+        "recommendation":"Your Recommendation",
+        "guidelines":"Guidelines",
+        "leaderboard":"Leaderboard",
+        "Supportsforum":"Supports Forums",
+        "discussion":"Discussion Panel",
+        "termofuse":"Terms of Use",
+        "apitermofuse":"Api Terms of Use",
+        "privacypolicy":"Privacy Policy",
+        "dmcapolicy":"DMCA Policy",
+        "systemstatus":"System Status",
+        "business":"Business Purpose",
+        "hiuser":"Hi User!!"
+        
+    },
+    "errorhandling":{
+        "contexterror":"useFavourite must be used within a FavouriteProvider",
+        "networkerror":"Network error , check your intrnet connections"
+    }
+
+}

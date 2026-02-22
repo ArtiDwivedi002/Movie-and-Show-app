@@ -1,0 +1,26 @@
+@use '@/style/variables.scss' as *;
+@use  '@/style/mixins.scss';
+.container{
+
+  display: flex;
+   @include mixins.center();
+    &__heading{
+    display: flex;
+    flex-wrap: wrap;
+    @include mixins.center();
+    color:var(--color-white);
+    padding:$padding-lg;
+    background-image: url('https://media.themoviedb.org/t/p/w1000_and_h563_face/1DhUTNVm6O7tJBceiQHrzlkLugQ.jpg');
+    background-position:100%;
+    background-size:cover;
+    background-repeat: no-repeat ;
+    width: 100vw;
+    height: 50vh;
+    border-radius: $border-radius-md;
+    font-size: $font-xl;
+    
+
+
+
+    }
+}
